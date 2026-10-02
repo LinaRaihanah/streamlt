@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Application</title>
+</head>
+
+<body>
+
+    <h1>Loan Application System</h1>
+
+    <form method="POST">
+
+        <label>Loan Amount:</label>
+        <input type="number" name="loan" required>
+
+        <br><br>
+
+        <label>Salary:</label>
+        <input type="number" name="salary" required>
+
+        <br><br>
+
+        <button type="submit">Check Application</button>
+
+    </form>
+
+    {% if status %}
+        <h2>{{ status }}</h2>
+    {% endif %}
+
+</body>
+</html>

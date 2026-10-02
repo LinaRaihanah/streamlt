@@ -1,0 +1,6 @@
+D'Warung Cafe Daily Sales
+--------------------------
+Total price for kids: RM 250
+Total price for adults: RM 500
+Overall total price: RM 750
+Overall total payment after discount: RM 675.0
